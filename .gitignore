@@ -179,3 +179,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Database files
+*.db
+**/*.db
+
+# OS-specific junk files
+.DS_Store
